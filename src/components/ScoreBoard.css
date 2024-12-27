@@ -1,0 +1,55 @@
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .score-board h3 {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .lives {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  .heart {
+    font-size: 24px;
+    margin-right: 5px;
+    opacity: 0.3;
+  }
+
+  .heart.active {
+    opacity: 1;
+  }
+  
+  .score {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  
+  @media (max-width: 768px) {
+    .score-board h3 {
+      font-size: 20px;
+    }
+  
+    .score {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .score-board h3 {
+      font-size: 18px;
+    }
+  
+    .score {
+      font-size: 24px;
+    }
+  }
+  
+  
