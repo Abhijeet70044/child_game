@@ -1,4 +1,4 @@
-Deployed link : 
+Deployed link : https://child-game-cyan.vercel.app/
 
 To run locally :
 1. Download the zip folder
